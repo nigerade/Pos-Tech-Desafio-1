@@ -9,7 +9,7 @@ form.addEventListener('submit', async (event) => {
         form.nome3.value,
         form.nome4.value,
         form.nome5.value,
-    ].filter(name => name.trim() !== ''); 
+    ].filter(name => name.trim() !== '');
 
     const message = form.history.value;
 
